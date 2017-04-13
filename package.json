@@ -1,0 +1,53 @@
+{
+  "name": "AftermarketApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "flow": "flow check",
+    "lint": "eslint --ext .js,.jsx src",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "remotedev": "remotedev --hostname=localhost --port=8099 --name=Conmet-iOS",
+    "tron": "./node_modules/.bin/reactotron"
+  },
+  "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "cldr-data": "^29.0.1",
+    "globalize": "^1.1.1",
+    "lodash": "^4.8.2",
+    "react": "^0.14.8",
+    "react-native": "^0.24",
+    "react-native-android-vitamio": "^6.0.0",
+    "react-native-blockable-webview": "^0.1.0",
+    "react-native-button": "wearenifty/react-native-button",
+    "react-native-carousel": "^0.4.5",
+    "react-native-drawer": "^2.0.0",
+    "react-native-router-flux": "^3.37.0",
+    "react-native-vector-icons": "^4.0.0",
+    "react-native-swiper": "joeferraro/react-native-swiper#916087f9b2f06fc360dc79da755644f8cd2010e8",
+    "react-native-video": "^0.8.0",
+    "react-native-viewpager": "^0.2.1",
+    "react-native-youtube": "^0.6.0",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1",
+    "reselect": "^2.2.1",
+    "rn-youtube-android": "^1.2.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "concurrently": "^2.0.0",
+    "eslint": "^2.7.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-filenames": "^0.2.0",
+    "eslint-plugin-flowtype": "^2.2.2",
+    "eslint-plugin-react": "^4.2.3",
+    "eslint-plugin-react-native": "^1.0.0",
+    "reactotron": "^0.7.0",
+    "remote-redux-devtools": "^0.1.5",
+    "remotedev-server": "0.0.6"
+  }
+}
